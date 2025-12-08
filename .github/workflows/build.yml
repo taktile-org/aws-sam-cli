@@ -146,7 +146,7 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version: '1.19'
-      - uses: ruby/setup-ruby@v1
+      - uses: ruby/setup-ruby@d697be2f83c6234b20877c3b5eac7a7f342f0d0c # v1.269.0
         with:
           ruby-version: "3.3"
       - uses: actions/setup-node@v4
