@@ -333,6 +333,8 @@ Resources:
     Type: AWS::ECR::Repository
     Condition: MissingImageRepository
     Properties:
+      EncryptionConfiguration:
+        EncryptionType: AES256
       RepositoryPolicyText:
         Version: "2012-10-17"
         Statement:
